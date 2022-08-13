@@ -1,0 +1,3 @@
+local BlacklistTable = {
+	[3773931357] = true;
+}
