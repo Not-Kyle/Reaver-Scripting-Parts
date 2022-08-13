@@ -1,0 +1,25 @@
+local c = Instance.new("Camera")
+local camera = workspace.CurrentCamera
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if string.find(msg,",eye") then  
+        local name = string.gsub(msg,",eye ", "")  
+        for i,v in pairs (game.Players:GetChildren()) do  
+            if string.sub(string.lower(v.Name) , 1, string.len(name)) == string.lower(name) then 
+camera.CameraSubject = v.Character
+end
+end
+end
+end)
+
+local c = Instance.new("Camera")
+local camera = workspace.CurrentCamera
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if string.find(msg,",uneye") then  
+        local name = string.gsub(msg,",uneye ", "")  
+        for i,v in pairs (game.Players:GetChildren()) do  
+            if string.sub(string.lower(v.Name) , 1, string.len(name)) == string.lower(name) then 
+camera.CameraSubject = game.Players.LocalPlayer.Character
+end
+end
+end
+end)
