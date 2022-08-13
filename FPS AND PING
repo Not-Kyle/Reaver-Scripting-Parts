@@ -14,7 +14,7 @@ Frame2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Frame2.BorderSizePixel = 2.3
 Frame2.Position = UDim2.new(0.9175, 0, 0.95, 0)
 Frame2.Size = UDim2.new(0, 152, 0, 45)
-Frame2.BackgroundTransparency = 0.8
+Frame2.BackgroundTransparency = 1
 Frame2.ZIndex = 0
 
 
@@ -29,7 +29,7 @@ Fps.Size = UDim2.new(-0.35, 125, 0, 25)
 Fps.Font = Enum.Font.Gotham
 Fps.TextColor3 = Color3.fromRGB(255, 0, 0)
 Fps.TextScaled = false
-Fps.TextSize = 16
+Fps.TextSize = 9
 Fps.TextWrapped = false
 
 Ping.Name = "Ping"
@@ -43,7 +43,7 @@ Ping.Size = UDim2.new(0, 125, 0, 25)
 Ping.Font = Enum.Font.Gotham
 Ping.TextColor3 = Color3.fromRGB(255, 0, 0)
 Ping.TextScaled = false
-Ping.TextSize = 13
+Ping.TextSize = 9
 Ping.TextWrapped = false
 
 -- Scripts:
