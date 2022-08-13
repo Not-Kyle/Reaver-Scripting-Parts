@@ -1,3 +1,8 @@
-local BlacklistTable = {
-	[3773931357] = true;
+local BL = game:GetService("Players").LocalPlayer
+local blacklisto = {
+    [3773931357] = true;
 }
+if blacklisto[BL.UserId] then
+
+BL:Kick("You are blacklisted")
+end
