@@ -1,6 +1,6 @@
 local BL = game:GetService("Players").LocalPlayer
 local BlacklistTable = {
-	[2] = true;
+	[3773931357] = true;
 }
 
 if BlacklistTable[BL.UserId] then
