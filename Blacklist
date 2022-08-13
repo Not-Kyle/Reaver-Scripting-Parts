@@ -1,8 +1,10 @@
-local BL = game:GetService("Players").LocalPlayer
-local blacklisto = {
-    [3773931357] = true;
+local Player = game:GetService("Players").LocalPlayer
+local BlacklistedIds = {
+    496721656, 3773931357
 }
-if blacklisto[BL.UserId] then
-
-BL:Kick("You are blacklisted")
+ 
+if table.find(BlacklistedIds, Player.UserId) then
+    -- Loadstring Here --
+else
+    Player:Kick(You are blacklisted")
 end
