@@ -13,8 +13,8 @@ Frame2.BackgroundColor3 = Color3.new(0, 0, 0)
 Frame2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Frame2.BorderSizePixel = 2.3
 Frame2.Position = UDim2.new(0.9175, 0, 0.95, 0)
-Frame2.Size = UDim2.new(0, 152, 0, 45)
-Frame2.BackgroundTransparency = 1
+Frame2.Size = UDim2.new(0, 152, 0, 200)
+Frame2.BackgroundTransparency = 0
 Frame2.ZIndex = 0
 
 
